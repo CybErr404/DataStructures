@@ -1,3 +1,5 @@
+package PokemonProject;
+
 public class Delphox extends Pokemon {
     public Delphox() {
         super(75, 69, 72, 114,

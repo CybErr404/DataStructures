@@ -1,3 +1,5 @@
+package PokemonProject;
+
 public class TesterStadium {
     public static void main(String[] args) {
         Pikachu jimmy = new Pikachu();

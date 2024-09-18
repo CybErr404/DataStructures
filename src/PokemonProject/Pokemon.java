@@ -1,3 +1,5 @@
+package PokemonProject;
+
 public class Pokemon implements CanAttack, CompareTo {
     private int hp;
     private int attack;

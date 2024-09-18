@@ -1,3 +1,5 @@
+package PokemonProject;
+
 public class Pikachu extends Pokemon {
     public Pikachu() {
         super(35, 55, 30, 50,

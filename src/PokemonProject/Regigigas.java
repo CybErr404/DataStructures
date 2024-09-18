@@ -1,3 +1,5 @@
+package PokemonProject;
+
 public class Regigigas extends Pokemon {
     public Regigigas() {
         super(110, 116, 110, 80,

@@ -1,4 +1,4 @@
-//HOMEWORK - FINISH THE POKÉMON PROGRAM. WITH 4 POKÉMON, 4 DIFFERENT ATTACKS, AND LOOP
+package Reviews;//HOMEWORK - FINISH THE POKÉMON PROGRAM. WITH 4 POKÉMON, 4 DIFFERENT ATTACKS, AND LOOP
 //THEM ATTACKING EACH OTHER UNTIL ONE OF THEM HAS 0 OR LESS HP.
 //add any missing stats, getters, and setters.
 //each Pokemon has 4 attacks. look them up and do your best to interpret them!

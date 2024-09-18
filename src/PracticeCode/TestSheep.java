@@ -1,3 +1,5 @@
+package PracticeCode;
+
 public class TestSheep {
     public static void main(String[] args) {
         //jerry is a copy of the sheep program and can do program things.
