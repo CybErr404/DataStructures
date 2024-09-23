@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added package names">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Updated code">
+      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PokemonProject/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonProject/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PokemonProject/TesterStadium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonProject/TesterStadium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reviews/ExtraDSAITools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reviews/ExtraDSAITools.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PokemonProject.TesterStadium">
+  <component name="RunManager" selected="Application.TestBook">
     <configuration name="PokemonProject.TesterStadium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PokemonProject.TesterStadium" />
       <module name="DataStructures" />
@@ -53,6 +52,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestBook" />
+      <module name="DataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesterStadium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TesterStadium" />
       <module name="DataStructures" />
@@ -62,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBook" />
         <item itemvalue="Application.PokemonProject.TesterStadium" />
         <item itemvalue="Application.TesterStadium" />
       </list>
@@ -111,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726692817899</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated code">
+      <created>1727109727174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727109727174</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +144,7 @@
     <MESSAGE value="Added new files" />
     <MESSAGE value="Organize files" />
     <MESSAGE value="Added package names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added package names" />
+    <MESSAGE value="Updated code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code" />
   </component>
 </project>
