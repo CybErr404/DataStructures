@@ -1,5 +1,8 @@
 package PokemonProject;
 
+import java.util.ArrayList;
+import java.util.Objects;
+
 public class Pokemon implements CanAttack, CompareTo {
     private int hp;
     private int attack;
@@ -84,7 +87,10 @@ public class Pokemon implements CanAttack, CompareTo {
     public boolean equals(Object obj) {
         //typecasting
         Pokemon temp = (Pokemon) obj;
-        if(this.getAttack() == temp.getAttack() && this.getHp() == temp.getHp()) { //should connect all variables.
+        if(this.getAttack() == temp.getAttack() && this.getHp() == temp.getHp()
+            && this.getDefense() == temp.getDefense() && this.getSpAttack() == temp.getSpAttack()
+            && this.getSpDefense() == temp.getSpDefense() && this.getSpeed() == temp.getSpeed()
+            && Objects.equals(this.getName(), temp.getName())) {
             return true;
         } else {
             return false;
@@ -107,5 +113,32 @@ public class Pokemon implements CanAttack, CompareTo {
         } else {
             return -1;
         }
+    }
+
+    public String runAttacks(ArrayList<Pokemon> pokemonList) {
+        //array list of pokemon.
+        //want to cycle through each one using attacks until they are defeated.
+        //last one standing, wins.
+
+        for(int i = 0; i < pokemonList.size(); i++) {
+            if(pokemonList.get(i).getHp() == 0) {
+                pokemonList.remove(i);
+            }
+            else if (pokemonList.get(i).getHp() != 0) {
+                if(pokemonList.get(i) instanceof Pikachu) {
+                    ((Pikachu) pokemonList.get(i)).thunderbolt(pokemonList.get(i + 1));
+                }
+                else if (pokemonList.get(i) instanceof Charizard) {
+                    ((Charizard) pokemonList.get(i)).braveWing(pokemonList.get(i + 1));
+                }
+                else if (pokemonList.get(i) instanceof Delphox) {
+                    ((Delphox) pokemonList.get(i)).wonderFlare(pokemonList.get(i + 1));
+                }
+                else if (pokemonList.get(i) instanceof Regigigas) {
+                    ((Regigigas) pokemonList.get(i)).daunt(pokemonList.get(0));
+                }
+            }
+        }
+        return "The winner is " + pokemonList.get(0).getName() + "!";
     }
 }
