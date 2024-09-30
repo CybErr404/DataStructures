@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added MovingX file">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added specific Pikachu file">
+      <change afterPath="$PROJECT_DIR$/src/AbstractClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeCode/JavaDocExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeCode/TestingObjectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeCode/ThunderboltException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reviews/ReviewMode3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokemonProject/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonProject/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reviews/ReviewMode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reviews/ReviewMode2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestBook">
+  <component name="RunManager" selected="Application.MiaContainerArrayListImplementation.TestMiaContainer">
+    <configuration name="MiaContainerArrayListImplementation.TestMiaContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiaContainerArrayListImplementation.TestMiaContainer" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MiaContainerArrayListImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PokemonProject.TesterStadium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PokemonProject.TesterStadium" />
       <module name="DataStructures" />
@@ -57,6 +77,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMiaContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMiaContainer" />
+      <module name="DataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesterStadium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TesterStadium" />
       <module name="DataStructures" />
@@ -66,6 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiaContainerArrayListImplementation.TestMiaContainer" />
+        <item itemvalue="Application.TestMiaContainer" />
         <item itemvalue="Application.TestBook" />
         <item itemvalue="Application.PokemonProject.TesterStadium" />
         <item itemvalue="Application.TesterStadium" />
@@ -151,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727113082383</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added specific Pikachu file">
+      <created>1727120286629</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727120286630</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +211,17 @@
     <MESSAGE value="Fixed file structure" />
     <MESSAGE value="Added second optional homework" />
     <MESSAGE value="Added MovingX file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MovingX file" />
+    <MESSAGE value="Added specific Pikachu file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added specific Pikachu file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

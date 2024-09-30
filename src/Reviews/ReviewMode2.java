@@ -60,6 +60,10 @@ public class ReviewMode2 {
         //i.e., overriding toString methods to have it print what you want.
     //We want to remember to use the @Override notation: why?
         //Ensures the method you wrote actually overrides something instead of creating a new method via typo.
+    //Method overriding things -
+    //Using the prefix super in a call to a method methodName calls the method with that
+    //name in the superclass of the current class.
+
 
     //OBJECT SUPERCLASS
     //This is the highest superclass. The root of it all. The class of all classes.
