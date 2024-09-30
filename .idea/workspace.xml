@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added specific Pikachu file">
-      <change afterPath="$PROJECT_DIR$/src/AbstractClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeCode/JavaDocExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeCode/TestingObjectClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeCode/ThunderboltException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reviews/ReviewMode3.java" afterDir="false" />
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added random number tester">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PokemonProject/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonProject/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reviews/ReviewMode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reviews/ReviewMode2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +180,49 @@
       <option name="project" value="LOCAL" />
       <updated>1727120286630</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added and edited review classes">
+      <created>1727708909683</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727708909683</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added abstract classes">
+      <created>1727708951055</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727708951055</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Created javadoc examples">
+      <created>1727708967988</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727708967988</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Created an exception class">
+      <created>1727708986087</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727708986087</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added object class test">
+      <created>1727709008876</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727709008876</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added random number tester">
+      <created>1727709032616</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727709032616</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +247,13 @@
     <MESSAGE value="Added second optional homework" />
     <MESSAGE value="Added MovingX file" />
     <MESSAGE value="Added specific Pikachu file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added specific Pikachu file" />
+    <MESSAGE value="Added and edited review classes" />
+    <MESSAGE value="Added abstract classes" />
+    <MESSAGE value="Created javadoc examples" />
+    <MESSAGE value="Created an exception class" />
+    <MESSAGE value="Added object class test" />
+    <MESSAGE value="Added random number tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added random number tester" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
