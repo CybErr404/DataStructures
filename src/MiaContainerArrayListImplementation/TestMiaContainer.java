@@ -7,6 +7,8 @@ public class TestMiaContainer {
             miaContainer.addData(i);
         }
 
+        miaContainer.addAll(2);
+        miaContainer.replace(3, 300);
         System.out.println(miaContainer);
 
     }

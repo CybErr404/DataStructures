@@ -96,7 +96,7 @@ public class MiaContainer {
     }
 
     public void replace(int position, int newData) {
-
+        data[position] = newData;
     }
 
     public void remove(int positionToRemove) {
