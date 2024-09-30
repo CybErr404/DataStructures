@@ -49,45 +49,60 @@ public class MiaContainer {
     //BROWNIE POINTS:
     //Write an add all method.
 
-    private String[] data;
+    private int[] data;
     private int currentPosition;
     public MiaContainer() {
-        data = new String[10];
+        data = new int[10];
         currentPosition = 0;
     }
 
-    public void addData(String newData) {
+    public void increaseSize() {
         if(currentPosition == data.length) {
-            String[] biggerData = new String[data.length * 2];
+            int[] temp = new int[data.length * 2];
             for(int i = 0; i < data.length; i++) {
-                biggerData[i] = data[i];
+                temp[i] = data[i];
             }
-            //make a new array
-            //loop old array, copy value to new array
-            //assign data to the new array.
-            biggerData[currentPosition] = newData;
-            currentPosition++;
+            data = temp;
         }
-//        data[currentPosition] = newData;
-//        currentPosition++;
     }
 
-    public void addData(int position, String newData) {
+    //make a new array
+    //loop old array, copy value to new array
+    //assign data to the new array.
+    public void addData(int newData) {
+        if(currentPosition == data.length) {
+            increaseSize();
+        }
+        data[currentPosition] = newData;
+        currentPosition++;
+    }
+
+    public void addData(int position, int newData) {
+        for(int i = 0; i < data.length; i++) {
+
+        }
+    }
+
+    public void addFirst(String newData) {
 
     }
 
-    public void addFirst() {
-
+    public void addAll(int newData) {
+        for(int i = 0; i < data.length; i++) {
+            if(!(data[i] == newData)) {
+                data[i] = newData;
+            }
+        }
     }
 
-    public void replace(int position, String newData) {
+    public void replace(int position, int newData) {
 
     }
 
     public void remove(int positionToRemove) {
         for(int i = 0; i < data.length; i++) {
-            if(i == positionToRemove && !(data[i].equals(""))) {
-                data[positionToRemove] = "";
+            if(i == positionToRemove && !(data[i] == 0)) {
+                data[positionToRemove] = 0;
             }
         }
     }
@@ -96,8 +111,8 @@ public class MiaContainer {
 
     }
 
-    public String[] clearContainer() {
-        String[] clearedContainer = new String[]{};
+    public int[] clearContainer() {
+        int[] clearedContainer = new int[]{};
         return clearedContainer;
     }
 
@@ -105,22 +120,22 @@ public class MiaContainer {
         return currentPosition;
     }
 
-    public String getElement(int position) {
+    public int getElement(int position) {
         return data[position];
     }
 
-    public boolean contains(String userData) {
+    public boolean contains(int userData) {
         for(int i = 0; i < data.length; i++) {
-            if(data[i].equals(userData)) {
+            if(data[i] == userData) {
                 return true;
             }
         }
         return false;
     }
 
-    public int indexOf(String userData) {
+    public int indexOf(int userData) {
         for(int i = 0; i < data.length; i++) {
-            if(data[i].equals(userData)) {
+            if(data[i] == userData) {
                 return i;
             }
         }
@@ -133,6 +148,10 @@ public class MiaContainer {
 
     @Override
     public String toString() {
-        return "";
+        String newString = "";
+        for(int i = 0; i < data.length; i++) {
+            newString = newString + data[i] + " ";
+        }
+        return newString;
     }
 }
