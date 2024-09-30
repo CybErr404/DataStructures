@@ -3,7 +3,7 @@ package PokemonProject;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class Pokemon implements CanAttack, CompareTo {
+public abstract class Pokemon implements CanAttack, CompareTo {
     private int hp;
     private int attack;
     private int defense;
