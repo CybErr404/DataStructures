@@ -1,8 +1,5 @@
 package MiaContainerArrayListImplementation;
 
-import java.util.Arrays;
-import java.util.Objects;
-
 public class MiaContainer {
     //Write a method that adds a value to your container.
     //find the first empty spot in your array and put it there.
@@ -78,13 +75,33 @@ public class MiaContainer {
     }
 
     public void addData(int position, int newData) {
-        for(int i = 0; i < data.length; i++) {
-
+        if(position == 0) {
+            addFirst(newData);
+        }
+        else if(position == data.length - 1) {
+            addData(newData);
+        }
+        else {
+            if(currentPosition == data.length) {
+                increaseSize();
+            }
+            for(int i = data.length - 1; i > position; i--) {
+                data[i] = data[i - 1];
+            }
+            data[position] = newData;
+            currentPosition++;
         }
     }
 
-    public void addFirst(String newData) {
-
+    public void addFirst(int newData) {
+        if(currentPosition == data.length) {
+            increaseSize();
+        }
+        for(int i = data.length - 1; i > 0; i--) {
+            data[i] = data[i - 1];
+        }
+        data[0] = newData;
+        currentPosition++;
     }
 
     public void addAll(int newData) {
@@ -100,15 +117,30 @@ public class MiaContainer {
     }
 
     public void remove(int positionToRemove) {
-        for(int i = 0; i < data.length; i++) {
-            if(i == positionToRemove && !(data[i] == 0)) {
+        if(positionToRemove == 0) {
+            removeFirst();
+        }
+        else if(positionToRemove == data.length - 1) {
                 data[positionToRemove] = 0;
+                currentPosition--;
+        }
+        else {
+            data[positionToRemove] = 0;
+            for(int i = positionToRemove; i < data.length - 1; i++) {
+                data[i] = data[i + 1];
             }
+            data[data.length - 1] = 0;
+            currentPosition--;
         }
     }
 
     public void removeFirst() {
-
+        data[0] = 0;
+        for(int i = 0; i < data.length - 1; i++) {
+            data[i] = data[i + 1];
+        }
+        data[data.length - 1] = 0;
+        currentPosition--;
     }
 
     public int[] clearContainer() {
@@ -149,7 +181,7 @@ public class MiaContainer {
     @Override
     public String toString() {
         String newString = "";
-        for(int i = 0; i < data.length; i++) {
+        for(int i = 0; i < currentPosition; i++) {
             newString = newString + data[i] + " ";
         }
         return newString;
