@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added ArrayList implementation">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Finished replace method">
+      <change afterPath="$PROJECT_DIR$/src/Generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiaUniversalBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestMiaUniversalBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MiaContainerArrayListImplementation/MiaContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiaContainerArrayListImplementation/MiaContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MiaContainerArrayListImplementation/TestMiaContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiaContainerArrayListImplementation/TestMiaContainer.java" afterDir="false" />
@@ -79,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesterStadium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TesterStadium" />
+    <configuration name="TestMiaUniversalBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMiaUniversalBox" />
       <module name="DataStructures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,10 +92,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MiaContainerArrayListImplementation.TestMiaContainer" />
+        <item itemvalue="Application.TestMiaUniversalBox" />
         <item itemvalue="Application.TestMiaContainer" />
         <item itemvalue="Application.TestBook" />
         <item itemvalue="Application.PokemonProject.TesterStadium" />
-        <item itemvalue="Application.TesterStadium" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727709133802</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixed add method">
+      <created>1727717882536</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727717882536</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Finished replace method">
+      <created>1727718052537</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1727718052537</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +288,9 @@
     <MESSAGE value="Added random number tester" />
     <MESSAGE value="Edited structure" />
     <MESSAGE value="Added ArrayList implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ArrayList implementation" />
+    <MESSAGE value="Fixed add method" />
+    <MESSAGE value="Finished replace method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished replace method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
