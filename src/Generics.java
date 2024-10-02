@@ -60,4 +60,16 @@ public class Generics {
     //Make a new project in your repository.
     //Modify your ArrayList class to accept Generics.
     //Hint - Step 1: Add <T> to your ArrayList class somewhere.
+
+    //MORE GENERICS NOTES
+    //private T[] someData;
+    //private int size;
+
+    //public MyListArray() {
+        //someData = (T[]) new Object[10];
+        //size = 0;
+    //}
+
+    //TRUE ARRAYLIST IMPLEMENTATION
+    //public lass ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, Serializable
 }
