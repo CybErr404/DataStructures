@@ -1,3 +1,5 @@
+package GenericsPractice;
+
 public class Generics {
     //Code re-usage - inheritance and polymorphism.
     //Ever wonder how ArrayList<> has those alligator braces with a parameter?

@@ -1,3 +1,5 @@
+package GenericsPractice;
+
 public class TestMiaUniversalBox {
     public static void main(String[] args) {
         //we can modify the constructor to accept a parameter here.

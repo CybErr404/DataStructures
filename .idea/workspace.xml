@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Restructured Generics notes">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added LinkedList demo">
       <change afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/MiaDaisyChainConnector.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestMiaDaisyChainConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiaContainerArrayListImplementation/TestMiaContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiaContainerArrayListImplementation/TestMiaContainer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727900358005</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Finished ArrayList tester class">
+      <created>1727928816913</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727928816913</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added LinkedList demo">
+      <created>1727928835748</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727928835748</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +304,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Added new files" />
     <MESSAGE value="Organize files" />
     <MESSAGE value="Added package names" />
@@ -316,7 +327,9 @@
     <MESSAGE value="Finished ArrayList implementation" />
     <MESSAGE value="Added extra Generics notes" />
     <MESSAGE value="Restructured Generics notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructured Generics notes" />
+    <MESSAGE value="Finished ArrayList tester class" />
+    <MESSAGE value="Added LinkedList demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added LinkedList demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

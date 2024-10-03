@@ -1,3 +1,5 @@
+package GenericsPractice;
+
 public class MiaUniversalBox <T> {
     //global variable, should consider making it private.
     public T thing1;
