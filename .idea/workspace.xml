@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Edited tester">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added more method tests">
       <change afterPath="$PROJECT_DIR$/src/MiaDaisyChainConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project1Instructions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestMiaDaisyChainConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMiaDaisyChainConnector.java" afterDir="false" />
     </list>
@@ -323,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728319958547</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added more method tests">
+      <created>1728325007706</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1728325007706</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +346,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed file structure" />
     <MESSAGE value="Added second optional homework" />
     <MESSAGE value="Added MovingX file" />
     <MESSAGE value="Added specific Pikachu file" />
@@ -363,7 +370,8 @@
     <MESSAGE value="Edited Box class" />
     <MESSAGE value="Added tester" />
     <MESSAGE value="Edited tester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited tester" />
+    <MESSAGE value="Added more method tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more method tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
