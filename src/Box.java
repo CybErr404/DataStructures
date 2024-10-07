@@ -1,6 +1,3 @@
-//box class. boxes hold data.
-//it has a String, int, etc. (whatever you like).
-//it also has a global variable next. next is a box.
 public class Box {
     private Box next;
     private int data;
