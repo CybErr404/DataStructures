@@ -1,3 +1,5 @@
+package LinkedListImplementation;
+
 //REPRESENTS THE INTRODUCTORY SINGULARLY LINKED LIST DATA STRUCTURE.
 //contains(element)
 public class MiaDaisyChainConnector {

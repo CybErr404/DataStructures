@@ -1,3 +1,5 @@
+package LinkedListImplementation;
+
 public class Box {
     private Box next;
     private int data;

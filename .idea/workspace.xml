@@ -39,10 +39,23 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestMiaDaisyChainConnector">
+  <component name="RunManager" selected="Application.LinkedListImplementation.TestMiaDaisyChainConnector">
     <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListDemo" />
       <module name="DataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListImplementation.TestMiaDaisyChainConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListImplementation.TestMiaDaisyChainConnector" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -56,13 +69,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMiaContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestMiaContainer" />
-      <module name="DataStructures" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListImplementation.TestMiaDaisyChainConnector" />
         <item itemvalue="Application.TestMiaDaisyChainConnector" />
         <item itemvalue="Application.MiaContainerArrayListImplementation.TestMiaContainer" />
         <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.TestMiaUniversalBox" />
-        <item itemvalue="Application.TestMiaContainer" />
       </list>
     </recent_temporary>
   </component>

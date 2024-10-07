@@ -1,7 +1,5 @@
-//DONE BEFORE ANYTHING ELSE:
-//Write a tester.
-//Call add method for 6 elements.
-//Print out results.
+package LinkedListImplementation;
+
 public class TestMiaDaisyChainConnector {
     public static void main(String[] args) {
         MiaDaisyChainConnector daisyChain = new MiaDaisyChainConnector();
