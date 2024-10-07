@@ -5,7 +5,7 @@
 public class TestMiaDaisyChainConnector {
     public static void main(String[] args) {
         MiaDaisyChainConnector daisyChain = new MiaDaisyChainConnector();
-        for(int i = 0; i < 6; i++) {
+        for(int i = 1; i <= 6; i++) {
             daisyChain.addFront(i);
         }
         System.out.println(daisyChain);
