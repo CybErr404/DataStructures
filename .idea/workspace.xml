@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added LinkedList demo">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Fixed package names">
       <change afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/MiaDaisyChainConnector.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestMiaDaisyChainConnector.java" afterDir="false" />
@@ -39,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MiaContainerArrayListImplementation.TestMiaContainer">
+  <component name="RunManager" selected="Application.TestMiaDaisyChainConnector">
     <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListDemo" />
       <module name="DataStructures" />
@@ -83,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MiaContainerArrayListImplementation.TestMiaContainer" />
         <item itemvalue="Application.TestMiaDaisyChainConnector" />
+        <item itemvalue="Application.MiaContainerArrayListImplementation.TestMiaContainer" />
         <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.TestMiaUniversalBox" />
         <item itemvalue="Application.TestMiaContainer" />
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727928835748</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fixed package names">
+      <created>1727929685239</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1727929685239</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +311,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added new files" />
     <MESSAGE value="Organize files" />
     <MESSAGE value="Added package names" />
     <MESSAGE value="Updated code" />
@@ -329,7 +335,8 @@
     <MESSAGE value="Restructured Generics notes" />
     <MESSAGE value="Finished ArrayList tester class" />
     <MESSAGE value="Added LinkedList demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added LinkedList demo" />
+    <MESSAGE value="Fixed package names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed package names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
