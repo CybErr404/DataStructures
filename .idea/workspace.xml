@@ -45,7 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestMiaDaisyChainConnectorDLL">
+  <component name="RunManager" selected="Application.TestMiaDaisyChainConnectorSLL">
     <configuration name="LinkedListImplementation.TestMiaDaisyChainConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListImplementation.TestMiaDaisyChainConnector" />
       <module name="DataStructures" />
@@ -107,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMiaDaisyChainConnectorDLL" />
         <item itemvalue="Application.TestMiaDaisyChainConnectorSLL" />
+        <item itemvalue="Application.TestMiaDaisyChainConnectorDLL" />
         <item itemvalue="Application.LinkedListImplementation.TestMiaDaisyChainConnector" />
         <item itemvalue="Application.TestMiaDaisyChainConnector" />
         <item itemvalue="Application.MiaContainerArrayListImplementation.TestMiaContainer" />
