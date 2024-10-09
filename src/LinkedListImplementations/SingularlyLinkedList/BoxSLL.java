@@ -1,18 +1,18 @@
 package LinkedListImplementations.SingularlyLinkedList;
 
-public class Box {
-    private Box next;
+public class BoxSLL {
+    private BoxSLL next;
     private int data;
 
-    public Box(Box inputNext, int inputData) {
+    public BoxSLL(BoxSLL inputNext, int inputData) {
         next = inputNext;
         data = inputData;
     }
 
-    public void setNext(Box newNext) {
+    public void setNext(BoxSLL newNext) {
         next = newNext;
     }
-    public Box getNext() {
+    public BoxSLL getNext() {
         return next;
     }
     public void setData(int newData) {

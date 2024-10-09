@@ -1,8 +1,8 @@
 package LinkedListImplementations.SingularlyLinkedList;
 
-public class TestMiaDaisyChainConnector {
+public class TestMiaDaisyChainConnectorSLL {
     public static void main(String[] args) {
-        MiaDaisyChainConnector daisyChain = new MiaDaisyChainConnector();
+        MiaDaisyChainConnectorSLL daisyChain = new MiaDaisyChainConnectorSLL();
         for(int i = 1; i <= 6; i++) {
             daisyChain.addFront(i);
         }
