@@ -1,3 +1,5 @@
+package PracticeCode.Examples;
+
 public abstract class AbstractClasses {
     //Abstract classes are classes that cannot have a constructor.
     //You CAN'T use the keyword new on them.

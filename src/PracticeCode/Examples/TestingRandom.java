@@ -1,4 +1,4 @@
-package PracticeCode;
+package PracticeCode.Examples;
 
 import java.util.Random;
 

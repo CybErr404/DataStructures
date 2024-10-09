@@ -1,4 +1,4 @@
-package PracticeCode;
+package PracticeCode.Examples;
 
 /**
  * This class has the purpose of teaching the real life classroom how to write javadocs.

@@ -1,4 +1,4 @@
-package PracticeCode;
+package PracticeCode.ObjectClass;
 
 public class TestingObjectClass {
 

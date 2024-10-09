@@ -1,3 +1,5 @@
+package PracticeCode.Examples;
+
 import java.util.LinkedList;
 
 public class LinkedListDemo {
