@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Fixed add methods">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Edited Singularly LinkedList tester">
       <change afterPath="$PROJECT_DIR$/src/Project1/Interactable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Item.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Monster.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/TestUltimaHalloweenEdition.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/UltimaHalloweenEdition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/DoublyLinkedList/MiaDaisyChainConnectorDLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/DoublyLinkedList/MiaDaisyChainConnectorDLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/DoublyLinkedList/TestMiaDaisyChainConnectorDLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/DoublyLinkedList/TestMiaDaisyChainConnectorDLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/SingularlyLinkedList/MiaDaisyChainConnectorSLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/SingularlyLinkedList/MiaDaisyChainConnectorSLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/BoxCLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/BoxCLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,7 +429,35 @@
       <option name="project" value="LOCAL" />
       <updated>1728508090930</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Finished Doubly LinkedList tester">
+      <created>1728509769119</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1728509769119</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Finished Doubly LinkedList class">
+      <created>1728509786802</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1728509786802</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fixed Singularly LinkedList class">
+      <created>1728509805785</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1728509805786</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Edited Singularly LinkedList tester">
+      <created>1728509869075</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1728509869075</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -447,10 +472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edited structure" />
-    <MESSAGE value="Added ArrayList implementation" />
-    <MESSAGE value="Fixed add method" />
-    <MESSAGE value="Finished replace method" />
     <MESSAGE value="Added Generics information" />
     <MESSAGE value="Finished ArrayList implementation" />
     <MESSAGE value="Added extra Generics notes" />
@@ -472,7 +493,11 @@
     <MESSAGE value="Finished BoxDLL class" />
     <MESSAGE value="Edited Singularly LinkedList class" />
     <MESSAGE value="Fixed add methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed add methods" />
+    <MESSAGE value="Finished Doubly LinkedList tester" />
+    <MESSAGE value="Finished Doubly LinkedList class" />
+    <MESSAGE value="Fixed Singularly LinkedList class" />
+    <MESSAGE value="Edited Singularly LinkedList tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited Singularly LinkedList tester" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
