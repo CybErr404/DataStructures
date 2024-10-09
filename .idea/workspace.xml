@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added Circularly LinkedList classes">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Edited Singularly LinkedList class">
       <change afterPath="$PROJECT_DIR$/src/Project1/Interactable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Item.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Monster.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/TestUltimaHalloweenEdition.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/UltimaHalloweenEdition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/BoxCLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/BoxCLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/MiaDaisyChainConnectorCLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/MiaDaisyChainConnectorCLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/TestMiaDaisyChainConnectorCLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/TestMiaDaisyChainConnectorCLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/DoublyLinkedList/MiaDaisyChainConnectorDLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/DoublyLinkedList/MiaDaisyChainConnectorDLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/DoublyLinkedList/TestMiaDaisyChainConnectorDLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/DoublyLinkedList/TestMiaDaisyChainConnectorDLL.java" afterDir="false" />
     </list>
@@ -46,14 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestMiaDaisyChainConnectorSLL">
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListDemo" />
-      <module name="DataStructures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestMiaDaisyChainConnectorDLL">
     <configuration name="LinkedListImplementation.TestMiaDaisyChainConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListImplementation.TestMiaDaisyChainConnector" />
       <module name="DataStructures" />
@@ -87,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMiaDaisyChainConnectorDLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListImplementations.DoublyLinkedList.TestMiaDaisyChainConnectorDLL" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedListImplementations.DoublyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMiaDaisyChainConnectorSLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListImplementations.SingularlyLinkedList.TestMiaDaisyChainConnectorSLL" />
       <module name="DataStructures" />
@@ -102,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMiaDaisyChainConnectorDLL" />
         <item itemvalue="Application.TestMiaDaisyChainConnectorSLL" />
         <item itemvalue="Application.LinkedListImplementation.TestMiaDaisyChainConnector" />
         <item itemvalue="Application.TestMiaDaisyChainConnector" />
         <item itemvalue="Application.MiaContainerArrayListImplementation.TestMiaContainer" />
-        <item itemvalue="Application.LinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728506596798</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Finished BoxDLL class">
+      <created>1728506873610</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1728506873610</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Edited Singularly LinkedList class">
+      <created>1728506943091</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1728506943091</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,8 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created an exception class" />
-    <MESSAGE value="Added object class test" />
     <MESSAGE value="Added random number tester" />
     <MESSAGE value="Edited structure" />
     <MESSAGE value="Added ArrayList implementation" />
@@ -446,7 +462,9 @@
     <MESSAGE value="Renamed Singularly LinkedList classes" />
     <MESSAGE value="Added Doubly LinkedList classes" />
     <MESSAGE value="Added Circularly LinkedList classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Circularly LinkedList classes" />
+    <MESSAGE value="Finished BoxDLL class" />
+    <MESSAGE value="Edited Singularly LinkedList class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited Singularly LinkedList class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

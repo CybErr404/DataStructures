@@ -25,6 +25,7 @@ public class MiaDaisyChainConnectorSLL {
         BoxSLL newBox = new BoxSLL(null, newData);
         BoxSLL temp = get(size - 1);
         temp.setNext(newBox);
+        size++;
     }
 
     public void addAtIndex(int position, int newData) {
@@ -35,6 +36,7 @@ public class MiaDaisyChainConnectorSLL {
         temp1.setNext(newBox);
         newBox.setNext(currentBox);
         currentBox.setNext(temp2);
+        size++;
     }
 
     public void removeFront() {
