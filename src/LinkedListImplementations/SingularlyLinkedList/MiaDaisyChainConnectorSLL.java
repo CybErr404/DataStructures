@@ -45,7 +45,7 @@ public class MiaDaisyChainConnectorSLL {
     }
 
     public void removeEnd() {
-        BoxSLL temp = get(size);
+        BoxSLL temp = get(size - 1);
         temp.setNext(null);
         size--;
     }
