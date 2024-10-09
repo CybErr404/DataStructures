@@ -1,7 +1,6 @@
 package LinkedListImplementations.SingularlyLinkedList;
 
 //REPRESENTS THE INTRODUCTORY SINGULARLY LINKED LIST DATA STRUCTURE.
-//contains(element)
 public class MiaDaisyChainConnectorSLL {
     private BoxSLL head;
     private int size;
