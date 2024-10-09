@@ -1,4 +1,4 @@
-package LinkedListImplementation;
+package LinkedListImplementations.SingularlyLinkedList;
 
 public class Box {
     private Box next;

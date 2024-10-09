@@ -1,4 +1,4 @@
-package LinkedListImplementation;
+package LinkedListImplementations.SingularlyLinkedList;
 
 public class TestMiaDaisyChainConnector {
     public static void main(String[] args) {
