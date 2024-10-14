@@ -17,7 +17,7 @@ public class SlotMachine implements Iterator {
 
     @Override
     public int next() {
-        coins--;
+        remove();
         return 1;
     }
 
@@ -26,7 +26,7 @@ public class SlotMachine implements Iterator {
         coins--;
     }
 
-    public void run() {
+    public void pullSlotMachine() {
         int count = 0;
         int losses = 0;
         int wins = 0;
@@ -36,7 +36,7 @@ public class SlotMachine implements Iterator {
             int value = randomNumber.nextInt(100);
             value += 1; //since 100 is NOT inclusive.
             if(value >= 20) {
-                remove();
+                next();
                 losses += 1;
             }
             else {
@@ -48,5 +48,9 @@ public class SlotMachine implements Iterator {
         System.out.println("Wins: " + wins);
         System.out.println("Losses: " + losses);
         System.out.println("Number of times slot machine was played before bankruptcy: " + count);
+    }
+
+    public void run() {
+        pullSlotMachine();
     }
 }
