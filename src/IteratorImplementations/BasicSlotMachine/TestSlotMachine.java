@@ -1,4 +1,4 @@
-package IteratorImplementation;
+package IteratorImplementations.BasicSlotMachine;
 
 public class TestSlotMachine {
     public static void main(String[] args) {

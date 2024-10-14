@@ -1,4 +1,4 @@
-package IteratorImplementation;
+package IteratorImplementations.BasicSlotMachine;
 
 import java.util.Random;
 

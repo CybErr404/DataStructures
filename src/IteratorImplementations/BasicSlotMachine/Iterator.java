@@ -1,4 +1,4 @@
-package IteratorImplementation;
+package IteratorImplementations.BasicSlotMachine;
 
 public interface Iterator {
     //Write your own Iterator program interface.
