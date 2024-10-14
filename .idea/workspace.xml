@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added Circularly LinkedList box class">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Finished Circular LinkedList class">
       <change afterPath="$PROJECT_DIR$/src/Project1/Interactable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Item.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Monster.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/Player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/TestUltimaHalloweenEdition.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Project1/UltimaHalloweenEdition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/MiaDaisyChainConnectorCLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/MiaDaisyChainConnectorCLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/TestMiaDaisyChainConnectorCLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListImplementations/CircularlyLinkedList/TestMiaDaisyChainConnectorCLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,20 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1726692464391</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1726692464391</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added new files">
-      <created>1726692495790</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1726692495790</updated>
     </task>
     <task id="LOCAL-00003" summary="Organize files">
       <created>1726692651903</created>
@@ -466,7 +449,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728510013915</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Finished Circular LinkedList tester">
+      <created>1728924781326</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1728924781327</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Finished Circular LinkedList class">
+      <created>1728924794741</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1728924794741</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,8 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished ArrayList implementation" />
-    <MESSAGE value="Added extra Generics notes" />
     <MESSAGE value="Restructured Generics notes" />
     <MESSAGE value="Finished ArrayList tester class" />
     <MESSAGE value="Added LinkedList demo" />
@@ -506,7 +501,9 @@
     <MESSAGE value="Fixed Singularly LinkedList class" />
     <MESSAGE value="Edited Singularly LinkedList tester" />
     <MESSAGE value="Added Circularly LinkedList box class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Circularly LinkedList box class" />
+    <MESSAGE value="Finished Circular LinkedList tester" />
+    <MESSAGE value="Finished Circular LinkedList class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Circular LinkedList class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
