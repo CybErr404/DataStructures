@@ -1,3 +1,5 @@
+package PracticeCode.Examples;
+
 public class BigO {
     //Big O - O()
     public static void main(String[] args) {
