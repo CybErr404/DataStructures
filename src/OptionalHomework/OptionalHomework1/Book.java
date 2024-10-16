@@ -1,4 +1,4 @@
-package OptionalHomework1;
+package OptionalHomework.OptionalHomework1;
 
 import java.util.ArrayList;
 
