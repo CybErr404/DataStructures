@@ -17,6 +17,8 @@ public interface Iterator {
 
     //If done early, make a new program that is exactly the same, except coins are coin type objects.
         //Reminder - this means 2 programs TOTAL if this is done.
+        //Have an ArrayList of coins.
+        //Modify the program to accept the ArrayList of coins.
 
     boolean hasNext();
     int next();
