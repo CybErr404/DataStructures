@@ -1,4 +1,4 @@
-package LinkedListImplementations.DoublyLinkedList;
+package DataStructureImplementations.LinkedList.DoublyLinkedList;
 
 public class BoxDLL {
     private BoxDLL next;

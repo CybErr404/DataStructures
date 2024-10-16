@@ -1,4 +1,4 @@
-package LinkedListImplementations.DoublyLinkedList;
+package DataStructureImplementations.LinkedList.DoublyLinkedList;
 
 public class TestMiaDaisyChainConnectorDLL {
     public static void main(String[] args) {
