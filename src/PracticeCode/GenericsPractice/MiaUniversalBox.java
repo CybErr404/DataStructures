@@ -1,4 +1,4 @@
-package GenericsPractice;
+package PracticeCode.GenericsPractice;
 
 public class MiaUniversalBox <T> {
     //global variable, should consider making it private.

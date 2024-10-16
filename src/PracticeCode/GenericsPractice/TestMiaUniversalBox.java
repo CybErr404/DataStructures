@@ -1,4 +1,4 @@
-package GenericsPractice;
+package PracticeCode.GenericsPractice;
 
 public class TestMiaUniversalBox {
     public static void main(String[] args) {
