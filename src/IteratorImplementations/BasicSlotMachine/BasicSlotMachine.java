@@ -2,11 +2,11 @@ package IteratorImplementations.BasicSlotMachine;
 
 import java.util.Random;
 
-public class SlotMachine implements Iterator {
+public class BasicSlotMachine implements Iterator {
 
     private int coins;
 
-    public SlotMachine() {
+    public BasicSlotMachine() {
         coins = 20;
     }
 

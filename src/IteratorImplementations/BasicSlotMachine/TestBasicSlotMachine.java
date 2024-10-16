@@ -1,8 +1,8 @@
 package IteratorImplementations.BasicSlotMachine;
 
-public class TestSlotMachine {
+public class TestBasicSlotMachine {
     public static void main(String[] args) {
-        SlotMachine slotMachine = new SlotMachine();
+        BasicSlotMachine slotMachine = new BasicSlotMachine();
         slotMachine.run();
     }
 }
