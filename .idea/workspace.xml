@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Changed file structure and packages">
-      <change beforePath="$PROJECT_DIR$/src/IteratorImplementations/BasicSlotMachine/SlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorImplementations/BasicSlotMachine/BasicSlotMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorImplementations/BasicSlotMachine/TestSlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorImplementations/BasicSlotMachine/TestBasicSlotMachine.java" afterDir="false" />
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Updated tester">
+      <change beforePath="$PROJECT_DIR$/src/IteratorImplementations/AdvancedSlotMachine/AdvancedSlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorImplementations/AdvancedSlotMachine/AdvancedSlotMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorImplementations/AdvancedSlotMachine/TestAdvancedSlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorImplementations/AdvancedSlotMachine/TestAdvancedSlotMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,48 +115,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Edited Box class">
-      <created>1728319637389</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1728319637389</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Added tester">
-      <created>1728319856615</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1728319856615</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Edited tester">
-      <created>1728319958547</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1728319958547</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Added more method tests">
-      <created>1728325007706</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1728325007706</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Finished LinkedList implementation">
-      <created>1728333712151</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1728333712151</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Finished base LinkedList tester">
-      <created>1728333731542</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1728333731542</updated>
     </task>
     <task id="LOCAL-00036" summary="Changed file structure">
       <created>1728333855069</created>
@@ -459,7 +417,49 @@
       <option name="project" value="LOCAL" />
       <updated>1729112425165</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Updated BasicSlotMachine classes">
+      <created>1729112496147</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112496147</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Updated BasicSlotMachine interface">
+      <created>1729112527941</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112527941</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Updated BasicSlotMachine interface">
+      <created>1729112583000</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112583000</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Added AdvancedIterator interface">
+      <created>1729112617278</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112617278</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Added AdvancedSlotMachine classes">
+      <created>1729112660435</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112660435</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Updated tester">
+      <created>1729112686391</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112686391</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,11 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished Circular LinkedList class" />
-    <MESSAGE value="Added Interactable interface" />
-    <MESSAGE value="Started UltimaHalloweenEdition classes" />
-    <MESSAGE value="Added Player class" />
-    <MESSAGE value="Added Item class" />
     <MESSAGE value="Added Monster class" />
     <MESSAGE value="Added Big O notation notes" />
     <MESSAGE value="Created Iterator interface" />
@@ -499,7 +494,12 @@
     <MESSAGE value="Removed arbitrary getter method" />
     <MESSAGE value="Edited Stack tester" />
     <MESSAGE value="Changed file structure and packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed file structure and packages" />
+    <MESSAGE value="Updated BasicSlotMachine classes" />
+    <MESSAGE value="Updated BasicSlotMachine interface" />
+    <MESSAGE value="Added AdvancedIterator interface" />
+    <MESSAGE value="Added AdvancedSlotMachine classes" />
+    <MESSAGE value="Updated tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated tester" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
