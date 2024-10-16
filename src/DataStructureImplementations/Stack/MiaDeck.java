@@ -59,8 +59,4 @@ public class MiaDeck {
         }
         return result;
     }
-
-    public int getCurrentPosition() {
-        return currentPosition;
-    }
 }
