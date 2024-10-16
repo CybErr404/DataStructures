@@ -1,3 +1,5 @@
+package DataStructureImplementations.Stack;
+
 //REPRESENTS A STACK DATA STRUCTURE.
 public class MiaDeck {
     private int[] deck;

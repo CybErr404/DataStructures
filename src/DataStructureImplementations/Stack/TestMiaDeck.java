@@ -1,3 +1,5 @@
+package DataStructureImplementations.Stack;
+
 public class TestMiaDeck {
     public static void main(String[] args) {
         MiaDeck myDeck = new MiaDeck();
