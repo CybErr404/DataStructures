@@ -15,6 +15,6 @@ public class TestMiaDeck {
         System.out.println(myDeck.peek());
         System.out.println("\nIs the deck empty?\n" + myDeck.empty());
         System.out.println("\nPosition where 2 is in the deck: \n" + myDeck.search(2));
-        System.out.println("Printing the deck:\n" + myDeck);
+        System.out.println("Printing the deck (to compare where 2 actually is):\n" + myDeck);
     }
 }
