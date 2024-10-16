@@ -1,4 +1,4 @@
-package LinkedListImplementations.SingularlyLinkedList;
+package DataStructureImplementations.LinkedList.SingularlyLinkedList;
 
 public class TestMiaDaisyChainConnectorSLL {
     public static void main(String[] args) {
