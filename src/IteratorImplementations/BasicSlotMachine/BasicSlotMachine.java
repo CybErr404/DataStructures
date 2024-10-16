@@ -2,7 +2,7 @@ package IteratorImplementations.BasicSlotMachine;
 
 import java.util.Random;
 
-public class BasicSlotMachine implements Iterator {
+public class BasicSlotMachine implements BasicSlotMachineIterator {
 
     private int coins;
 

@@ -1,6 +1,6 @@
 package IteratorImplementations.BasicSlotMachine;
 
-public interface Iterator {
+public interface BasicSlotMachineIterator {
     //Write your own Iterator program interface.
         //It has next, hasNext, and remove.
             //Skip the other method in the API.
