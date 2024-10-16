@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Edited file structure">
-      <change afterPath="$PROJECT_DIR$/src/IteratorImplementations/AdvancedSlotMachine/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiaDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestMiaDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorImplementations/BasicSlotMachine/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorImplementations/BasicSlotMachine/Iterator.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Created Coin class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,34 +112,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Created an exception class">
-      <created>1727708986087</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1727708986087</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Added object class test">
-      <created>1727709008876</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1727709008876</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Added random number tester">
-      <created>1727709032616</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1727709032616</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Edited structure">
-      <created>1727709112561</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1727709112561</updated>
     </task>
     <task id="LOCAL-00019" summary="Added ArrayList implementation">
       <created>1727709133802</created>
@@ -462,7 +428,35 @@
       <option name="project" value="LOCAL" />
       <updated>1728940334064</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Edited iterator interface">
+      <created>1729111712561</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111712561</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Added Stack implementation">
+      <created>1729111732397</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111732397</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Added Stack tester">
+      <created>1729111753554</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111753554</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Created Coin class">
+      <created>1729111767853</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111767853</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,10 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed file structure" />
-    <MESSAGE value="Renamed Singularly LinkedList classes" />
-    <MESSAGE value="Added Doubly LinkedList classes" />
-    <MESSAGE value="Added Circularly LinkedList classes" />
     <MESSAGE value="Finished BoxDLL class" />
     <MESSAGE value="Edited Singularly LinkedList class" />
     <MESSAGE value="Fixed add methods" />
@@ -502,7 +492,11 @@
     <MESSAGE value="Added SlotMachine tester" />
     <MESSAGE value="Finished SlotMachine" />
     <MESSAGE value="Edited file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited file structure" />
+    <MESSAGE value="Edited iterator interface" />
+    <MESSAGE value="Added Stack implementation" />
+    <MESSAGE value="Added Stack tester" />
+    <MESSAGE value="Created Coin class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Coin class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
