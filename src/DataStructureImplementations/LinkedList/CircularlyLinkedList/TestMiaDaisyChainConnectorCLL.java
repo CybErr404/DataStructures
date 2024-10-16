@@ -1,4 +1,4 @@
-package LinkedListImplementations.CircularlyLinkedList;
+package DataStructureImplementations.LinkedList.CircularlyLinkedList;
 
 public class TestMiaDaisyChainConnectorCLL {
     public static void main(String[] args) {
