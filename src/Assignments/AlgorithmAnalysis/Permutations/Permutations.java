@@ -1,21 +1,21 @@
-package Assignments.AlgorithmAnalysis; /** This class provides methods for generating
+package Assignments.AlgorithmAnalysis.Permutations;
+
+import java.util.Random;
+
+/** This class provides methods for generating
  * random permutations of integers.
  * It provides a counter of the number of
  * steps performed by each method when generating
  * a permutation.
  */
-
-import java.util.Random;
-
-public class Permutations
-{
+public class Permutations {
 
     private Random rand;  // Random number generator
     private int stepCounter;
+
     /** Makes a random permutation generator
      */
-    public Permutations()
-    {
+    public Permutations() {
         this.rand = new Random();
     }
 
@@ -23,17 +23,14 @@ public class Permutations
      * the values in 1..a.length
      * @param a The array to hold the permutation
      */
-    public  void algorithm1(int[] a)
-    {
+    public  void algorithm1(int[] a) {
         stepCounter = 0;
         int n = a.length;
         int next;
-        for (int i = 0; i < n; i++)
-        {
+        for (int i = 0; i < n; i++) {
             // generate numbers until you get one
             // that is not already used
-            do
-            {
+            do {
                 next = rand.nextInt(n) + 1;
                 stepCounter++;
             }
@@ -48,12 +45,9 @@ public class Permutations
      * @param val The target of the search
      * @return true if val was found
      */
-    private  boolean alreadyUsed(int[] a, int size, int val)
-    {
-        for (int i = 0; i < size; i++)
-        {
-            if (a[i] == val)
-            {
+    private  boolean alreadyUsed(int[] a, int size, int val) {
+        for (int i = 0; i < size; i++) {
+            if (a[i] == val) {
                 return true;
             }
         }
@@ -66,16 +60,13 @@ public class Permutations
         // set up an array to keep track of
         // values already used
         boolean[] used = new boolean[n+1];
-        for (int i = 0; i < used.length; i++)
-        {
+        for (int i = 0; i < used.length; i++) {
             used[i] = false;
             stepCounter++;
         }
         int next;
-        for (int i = 0; i < n; i++)
-        {
-            do
-            {
+        for (int i = 0; i < n; i++) {
+            do {
                 // generate numbers until you get one
                 // that is not already used
                 next = rand.nextInt(n) + 1;
@@ -87,19 +78,16 @@ public class Permutations
             used[next] = true;
         }
     }
-    public void algorithm3(int[] a)
-    {
+    public void algorithm3(int[] a) {
         stepCounter = 0;
         int n = a.length;
         // store all the numbers in order
-        for (int i = 0; i < n; i++)
-        {
+        for (int i = 0; i < n; i++) {
             a[i] = i+1;
             stepCounter++;
         }
         // randomly shuffle the numbers
-        for (int i = 0; i < n; i++)
-        {
+        for (int i = 0; i < n; i++) {
             int temp = a[i];
             int j = rand.nextInt(n);
             a[i] = a[j];

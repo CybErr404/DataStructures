@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Updated file structure" />
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added permutations files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignments/AlgorithmAnalysis/Permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignments/AlgorithmAnalysis/PermutationsTester.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,13 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Finished Doubly LinkedList tester">
-      <created>1728509769119</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1728509769119</updated>
     </task>
     <task id="LOCAL-00046" summary="Finished Doubly LinkedList class">
       <created>1728509786802</created>
@@ -460,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729440927463</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Added permutations files">
+      <created>1729440986598</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1729440986598</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edited file structure" />
     <MESSAGE value="Edited iterator interface" />
     <MESSAGE value="Added Stack implementation" />
     <MESSAGE value="Added Stack tester" />
@@ -500,7 +503,8 @@
     <MESSAGE value="Finished Time class" />
     <MESSAGE value="Finished TimeTest JUnit tester class" />
     <MESSAGE value="Updated file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated file structure" />
+    <MESSAGE value="Added permutations files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added permutations files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
