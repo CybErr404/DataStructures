@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Added comment for later fixing">
-      <change afterPath="$PROJECT_DIR$/src/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Updated file structure">
+      <change afterPath="$PROJECT_DIR$/src/Permutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.TestAdvancedSlotMachine">
     <configuration name="DataStructureImplementations.Stack.TestMiaDeck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructureImplementations.Stack.TestMiaDeck" />
@@ -115,34 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Renamed Singularly LinkedList classes">
-      <created>1728506450029</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1728506450029</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Added Doubly LinkedList classes">
-      <created>1728506504517</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1728506504517</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Added Circularly LinkedList classes">
-      <created>1728506596798</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1728506596798</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Finished BoxDLL class">
-      <created>1728506873610</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1728506873610</updated>
     </task>
     <task id="LOCAL-00043" summary="Edited Singularly LinkedList class">
       <created>1728506943091</created>
@@ -459,7 +434,35 @@
       <option name="project" value="LOCAL" />
       <updated>1729385597396</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Added JUnit classpath">
+      <created>1729439317520</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1729439317520</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Finished Time class">
+      <created>1729439335573</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1729439335573</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Finished TimeTest JUnit tester class">
+      <created>1729439362896</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1729439362896</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Updated file structure">
+      <created>1729439429636</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1729439429636</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,9 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added SlotMachine class" />
-    <MESSAGE value="Added SlotMachine tester" />
-    <MESSAGE value="Finished SlotMachine" />
     <MESSAGE value="Edited file structure" />
     <MESSAGE value="Edited iterator interface" />
     <MESSAGE value="Added Stack implementation" />
@@ -487,7 +487,6 @@
     <MESSAGE value="Changed Doubly LinkedList packaging" />
     <MESSAGE value="Changed Singularly LinkedList packaging" />
     <MESSAGE value="Changed Stack packaging" />
-    <MESSAGE value="Updated file structure" />
     <MESSAGE value="Removed arbitrary getter method" />
     <MESSAGE value="Edited Stack tester" />
     <MESSAGE value="Changed file structure and packages" />
@@ -499,7 +498,11 @@
     <MESSAGE value="Finished tester" />
     <MESSAGE value="Edited AdvancedSlotMachine class" />
     <MESSAGE value="Added comment for later fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comment for later fixing" />
+    <MESSAGE value="Added JUnit classpath" />
+    <MESSAGE value="Finished Time class" />
+    <MESSAGE value="Finished TimeTest JUnit tester class" />
+    <MESSAGE value="Updated file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated file structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
