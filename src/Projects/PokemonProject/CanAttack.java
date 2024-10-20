@@ -1,4 +1,4 @@
-package PokemonProject;
+package Projects.PokemonProject;
 
 public interface CanAttack {
     void attack();

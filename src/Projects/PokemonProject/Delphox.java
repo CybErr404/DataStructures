@@ -1,4 +1,4 @@
-package PokemonProject;
+package Projects.PokemonProject;
 
 public class Delphox extends Pokemon {
     public Delphox() {

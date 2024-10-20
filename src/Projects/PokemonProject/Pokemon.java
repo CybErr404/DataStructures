@@ -1,4 +1,4 @@
-package PokemonProject;
+package Projects.PokemonProject;
 
 import java.util.ArrayList;
 import java.util.Objects;

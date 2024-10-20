@@ -1,4 +1,4 @@
-package PokemonProject;
+package Projects.PokemonProject;
 
 public class Pikachu extends Pokemon {
     public Pikachu() {
