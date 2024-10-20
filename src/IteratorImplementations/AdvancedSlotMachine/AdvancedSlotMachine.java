@@ -3,6 +3,7 @@ package IteratorImplementations.AdvancedSlotMachine;
 import java.util.ArrayList;
 import java.util.Random;
 
+//NEEDS TO BE FIXED.
 public class AdvancedSlotMachine implements AdvancedIterator {
     private ArrayList<Coin> coins;
     private Coin coin;
