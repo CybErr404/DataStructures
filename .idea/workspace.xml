@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Finished Data Structure tester">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Finished StackReverser">
       <change afterPath="$PROJECT_DIR$/src/MiddleDeleter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/PalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackReverser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestMiddleDeleter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestPalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestStackReverser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" afterDir="false" />
     </list>
@@ -47,7 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestStackReverser">
+  <component name="RunManager" selected="Application.TestPalindromeChecker">
     <configuration name="TestAdvancedSlotMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IteratorImplementations.AdvancedSlotMachine.TestAdvancedSlotMachine" />
       <module name="DataStructures" />
@@ -91,9 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPalindromeChecker" />
         <item itemvalue="Application.TestStackReverser" />
         <item itemvalue="Application.TestMiddleDeleter" />
-        <item itemvalue="Application.TestPalindromeChecker" />
         <item itemvalue="Application.TestDataStructures" />
         <item itemvalue="Application.TestAdvancedSlotMachine" />
       </list>
@@ -107,13 +105,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Added Player class">
-      <created>1728926790198</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1728926790198</updated>
     </task>
     <task id="LOCAL-00055" summary="Added Item class">
       <created>1728926806788</created>
@@ -451,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729542783413</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Finished StackReverser">
+      <created>1729543430978</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1729543430978</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -466,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed Circularly LinkedList packaging" />
     <MESSAGE value="Changed Doubly LinkedList packaging" />
     <MESSAGE value="Changed Singularly LinkedList packaging" />
     <MESSAGE value="Changed Stack packaging" />
@@ -491,7 +488,8 @@
     <MESSAGE value="Updated packages for classes" />
     <MESSAGE value="Finished base tester class" />
     <MESSAGE value="Finished Data Structure tester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Data Structure tester" />
+    <MESSAGE value="Finished StackReverser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished StackReverser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
