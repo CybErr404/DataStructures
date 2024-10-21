@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Finished StackReverser">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Finished PalindromeChecker tester class">
+      <change afterPath="$PROJECT_DIR$/src/ChocolateFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/MiddleDeleter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PalindromeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestChocolateFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestMiddleDeleter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestPalindromeChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" afterDir="false" />
     </list>
@@ -45,7 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestPalindromeChecker">
+  <component name="RunManager" selected="Application.TestChocolateFactory">
     <configuration name="TestAdvancedSlotMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IteratorImplementations.AdvancedSlotMachine.TestAdvancedSlotMachine" />
       <module name="DataStructures" />
@@ -59,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDataStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDataStructures" />
+    <configuration name="TestChocolateFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestChocolateFactory" />
       <module name="DataStructures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestChocolateFactory" />
+        <item itemvalue="Application.TestAdvancedSlotMachine" />
         <item itemvalue="Application.TestPalindromeChecker" />
         <item itemvalue="Application.TestStackReverser" />
         <item itemvalue="Application.TestMiddleDeleter" />
-        <item itemvalue="Application.TestDataStructures" />
-        <item itemvalue="Application.TestAdvancedSlotMachine" />
       </list>
     </recent_temporary>
   </component>
@@ -105,20 +105,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Added Item class">
-      <created>1728926806788</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1728926806788</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Added Monster class">
-      <created>1728926818424</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1728926818424</updated>
     </task>
     <task id="LOCAL-00057" summary="Added Big O notation notes">
       <created>1728935673956</created>
@@ -449,7 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729543430978</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Finished PalindromeChecker">
+      <created>1729545251994</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1729545251994</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Finished PalindromeChecker tester class">
+      <created>1729545296605</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1729545296605</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,8 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed Doubly LinkedList packaging" />
-    <MESSAGE value="Changed Singularly LinkedList packaging" />
     <MESSAGE value="Changed Stack packaging" />
     <MESSAGE value="Removed arbitrary getter method" />
     <MESSAGE value="Edited Stack tester" />
@@ -489,7 +487,9 @@
     <MESSAGE value="Finished base tester class" />
     <MESSAGE value="Finished Data Structure tester" />
     <MESSAGE value="Finished StackReverser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished StackReverser" />
+    <MESSAGE value="Finished PalindromeChecker" />
+    <MESSAGE value="Finished PalindromeChecker tester class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished PalindromeChecker tester class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
