@@ -1,3 +1,5 @@
+package PracticeCode.SingletonDesign;
+
 public class TestChocolateFactory {
     public static void main(String[] args) {
         //DOES NOT WORK.
