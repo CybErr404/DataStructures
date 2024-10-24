@@ -2,8 +2,6 @@ package IteratorImplementations.AdvancedSlotMachine;
 
 import java.util.ArrayList;
 import java.util.Random;
-
-//NEEDS TO BE FIXED.
 public class AdvancedSlotMachine implements AdvancedIterator {
     private ArrayList<Coin> coins;
     private Coin coin;
@@ -20,7 +18,11 @@ public class AdvancedSlotMachine implements AdvancedIterator {
 
     @Override
     public boolean hasNext() {
-        return coins.isEmpty();
+        if(coins.size() > 0) {
+            return true;
+        }
+        return false;
+        //return coins.isEmpty();
     }
 
     @Override
@@ -38,7 +40,7 @@ public class AdvancedSlotMachine implements AdvancedIterator {
         int count = 0;
         int losses = 0;
         int wins = 0;
-        System.out.println("Welcome to the Slot Machine!");
+        System.out.println("Welcome to the Slot Machine! " + coins.size());
         while(hasNext()) {
             Random randomNumber = new Random();
             int value = randomNumber.nextInt(100);
