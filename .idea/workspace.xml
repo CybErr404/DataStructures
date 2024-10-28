@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Updated file structure">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Fixed AdvancedSlotMachine class">
       <change afterPath="$PROJECT_DIR$/src/MiddleDeleter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestMiddleDeleter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorImplementations/AdvancedSlotMachine/AdvancedSlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorImplementations/AdvancedSlotMachine/AdvancedSlotMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestAdvancedSlotMachine">
+  <component name="RunManager" selected="Application.TestMiaLine">
     <configuration name="PracticeCode.SingletonDesign.TestChocolateFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeCode.SingletonDesign.TestChocolateFactory" />
       <module name="DataStructures" />
@@ -78,6 +77,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMiaLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructureImplementations.Queue.TestMiaLine" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructureImplementations.Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMiddleDeleter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestMiddleDeleter" />
       <module name="DataStructures" />
@@ -85,20 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPalindromeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPalindromeChecker" />
-      <module name="DataStructures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMiaLine" />
         <item itemvalue="Application.TestAdvancedSlotMachine" />
         <item itemvalue="Application.TestMiddleDeleter" />
         <item itemvalue="Application.PracticeCode.SingletonDesign.TestChocolateFactory" />
         <item itemvalue="Application.TestChocolateFactory" />
-        <item itemvalue="Application.TestPalindromeChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -110,13 +115,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Added SlotMachine class">
-      <created>1728938976948</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1728938976948</updated>
     </task>
     <task id="LOCAL-00060" summary="Added SlotMachine tester">
       <created>1728938988187</created>
@@ -454,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729547121765</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Fixed AdvancedSlotMachine class">
+      <created>1729728835757</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1729728835760</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed arbitrary getter method" />
     <MESSAGE value="Edited Stack tester" />
     <MESSAGE value="Changed file structure and packages" />
     <MESSAGE value="Updated BasicSlotMachine classes" />
@@ -494,7 +498,8 @@
     <MESSAGE value="Finished PalindromeChecker tester class" />
     <MESSAGE value="Added singleton design code" />
     <MESSAGE value="Updated file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated file structure" />
+    <MESSAGE value="Fixed AdvancedSlotMachine class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed AdvancedSlotMachine class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
