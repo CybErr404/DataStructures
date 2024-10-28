@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Started main game class">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Restructured files">
       <change afterPath="$PROJECT_DIR$/src/MiddleDeleter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestMiddleDeleter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalindromeChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackReverser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDataStructures.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestPalindromeChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestStackReverser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructureImplementations/Queue/MiaLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureImplementations/Queue/MiaLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +114,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Finished SlotMachine">
-      <created>1728939995908</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1728939995908</updated>
     </task>
     <task id="LOCAL-00063" summary="Edited file structure">
       <created>1728940334064</created>
@@ -462,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730148292830</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Restructured files">
+      <created>1730148440583</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1730148440583</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated BasicSlotMachine classes" />
     <MESSAGE value="Updated BasicSlotMachine interface" />
     <MESSAGE value="Added AdvancedIterator interface" />
     <MESSAGE value="Added AdvancedSlotMachine classes" />
@@ -502,7 +497,8 @@
     <MESSAGE value="Fixed AdvancedSlotMachine class" />
     <MESSAGE value="Started Queue implementation" />
     <MESSAGE value="Started main game class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started main game class" />
+    <MESSAGE value="Restructured files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructured files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

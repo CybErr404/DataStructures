@@ -41,7 +41,6 @@ public class MiaLine {
     public String toString() {
         String result = "";
         int i = 0;
-        int head = data.get(0);
         while(data.peek() != null && i != data.size()) {
             result = result + data.get(i) + " ";
             i++;
