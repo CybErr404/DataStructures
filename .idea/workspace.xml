@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Fixed AdvancedSlotMachine class">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Started main game class">
       <change afterPath="$PROJECT_DIR$/src/MiddleDeleter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestMiddleDeleter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromeChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackReverser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestDataStructures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestPalindromeChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestStackReverser.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,20 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Added SlotMachine tester">
-      <created>1728938988187</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1728938988187</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Edited file structure">
-      <created>1728939496123</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1728939496123</updated>
     </task>
     <task id="LOCAL-00062" summary="Finished SlotMachine">
       <created>1728939995908</created>
@@ -459,7 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729728835760</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Started Queue implementation">
+      <created>1730148254171</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1730148254172</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Started main game class">
+      <created>1730148292830</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1730148292830</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,8 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edited Stack tester" />
-    <MESSAGE value="Changed file structure and packages" />
     <MESSAGE value="Updated BasicSlotMachine classes" />
     <MESSAGE value="Updated BasicSlotMachine interface" />
     <MESSAGE value="Added AdvancedIterator interface" />
@@ -499,7 +500,9 @@
     <MESSAGE value="Added singleton design code" />
     <MESSAGE value="Updated file structure" />
     <MESSAGE value="Fixed AdvancedSlotMachine class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed AdvancedSlotMachine class" />
+    <MESSAGE value="Started Queue implementation" />
+    <MESSAGE value="Started main game class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started main game class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

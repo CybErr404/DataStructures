@@ -1,3 +1,5 @@
+package QuickDrills.PalindromeChecker;
+
 public class TestPalindromeChecker {
     public static void main(String[] args) {
         PalindromeChecker checker = new PalindromeChecker();

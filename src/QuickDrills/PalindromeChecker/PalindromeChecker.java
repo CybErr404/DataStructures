@@ -1,3 +1,5 @@
+package QuickDrills.PalindromeChecker;
+
 import java.util.Stack;
 
 public class PalindromeChecker {
