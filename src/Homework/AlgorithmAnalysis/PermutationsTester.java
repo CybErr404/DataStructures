@@ -1,4 +1,4 @@
-package Assignments.AlgorithmAnalysis.Permutations;
+package Homework.AlgorithmAnalysis;
 
 /**
  *  This class measures the performance of the permutation algorithms.

@@ -1,4 +1,4 @@
-package Assignments.AlgorithmAnalysis.Permutations;
+package Homework.AlgorithmAnalysis;
 
 import java.util.Random;
 
