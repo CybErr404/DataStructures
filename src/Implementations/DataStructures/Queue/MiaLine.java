@@ -1,4 +1,4 @@
-package DataStructureImplementations.Queue;
+package Implementations.DataStructures.Queue;
 
 import java.util.LinkedList;
 public class MiaLine {

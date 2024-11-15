@@ -1,4 +1,4 @@
-package DataStructureImplementations.Queue;
+package Implementations.DataStructures.Queue;
 
 public class TestMiaLine {
     public static void main(String[] args) {
