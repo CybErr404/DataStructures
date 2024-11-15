@@ -1,28 +1,18 @@
-package IteratorImplementations.AdvancedSlotMachine;
+package Implementations.Iterators.BasicSlotMachine;
 
-import java.util.ArrayList;
 import java.util.Random;
-public class AdvancedSlotMachine implements AdvancedIterator {
-    private ArrayList<Coin> coins;
-    private Coin coin;
-    public AdvancedSlotMachine() {
-        coins = new ArrayList<>();
-        coin = new Coin();
-    }
 
-    public void addMoney() {
-        for(int i = 0; i < 20; i++) {
-            coins.add(coin);
-        }
+public class BasicSlotMachine implements BasicIterator {
+
+    private int coins;
+
+    public BasicSlotMachine() {
+        coins = 20;
     }
 
     @Override
     public boolean hasNext() {
-        if(coins.size() > 0) {
-            return true;
-        }
-        return false;
-        //return coins.isEmpty();
+        return coins > 0;
     }
 
     @Override
@@ -33,25 +23,24 @@ public class AdvancedSlotMachine implements AdvancedIterator {
 
     @Override
     public void remove() {
-        coins.remove(0);
+        coins--;
     }
 
     public void pullSlotMachine() {
         int count = 0;
         int losses = 0;
         int wins = 0;
-        System.out.println("Welcome to the Slot Machine! " + coins.size());
+        System.out.println("Welcome to the Slot Machine!");
         while(hasNext()) {
             Random randomNumber = new Random();
             int value = randomNumber.nextInt(100);
             value += 1; //since 100 is NOT inclusive.
-            if(value > 20) {
+            if(value >= 20) {
                 next();
                 losses += 1;
             }
             else {
-                coins.add(coin);
-                coins.add(coin);
+                coins += 2;
                 wins += 1;
             }
             count++;
@@ -62,7 +51,6 @@ public class AdvancedSlotMachine implements AdvancedIterator {
     }
 
     public void run() {
-        addMoney();
         pullSlotMachine();
     }
 }

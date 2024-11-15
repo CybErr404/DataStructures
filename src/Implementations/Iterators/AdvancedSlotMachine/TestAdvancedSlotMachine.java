@@ -1,4 +1,4 @@
-package IteratorImplementations.AdvancedSlotMachine;
+package Implementations.Iterators.AdvancedSlotMachine;
 
 public class TestAdvancedSlotMachine {
     public static void main(String[] args) {

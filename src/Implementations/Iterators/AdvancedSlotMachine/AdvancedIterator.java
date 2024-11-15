@@ -1,4 +1,4 @@
-package IteratorImplementations.AdvancedSlotMachine;
+package Implementations.Iterators.AdvancedSlotMachine;
 
 public interface AdvancedIterator {
     boolean hasNext();
