@@ -1,4 +1,4 @@
-package Assignments.JUnitTest;
+package Homework.JUnitTest;
 
 import static org.junit.Assert.*;
 import org.junit.Test;

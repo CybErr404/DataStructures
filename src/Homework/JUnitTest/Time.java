@@ -1,4 +1,4 @@
-package Assignments.JUnitTest;
+package Homework.JUnitTest;
 
 import java.util.GregorianCalendar;
 
