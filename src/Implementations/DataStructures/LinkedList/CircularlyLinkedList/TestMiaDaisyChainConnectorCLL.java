@@ -1,14 +1,14 @@
-package DataStructureImplementations.LinkedList.DoublyLinkedList;
+package Implementations.DataStructures.LinkedList.CircularlyLinkedList;
 
-public class TestMiaDaisyChainConnectorDLL {
+public class TestMiaDaisyChainConnectorCLL {
     public static void main(String[] args) {
-        MiaDaisyChainConnectorDLL daisyChain = new MiaDaisyChainConnectorDLL();
+        MiaDaisyChainConnectorCLL daisyChain = new MiaDaisyChainConnectorCLL();
 
         for(int i = 1; i <= 6; i++) {
             daisyChain.addFront(i);
         }
 
-        System.out.println("Daisy chain after adding numbers 1-6: \n" + daisyChain);
+        System.out.println("Daisy chain after adding numbers 1-6 to the front: \n" + daisyChain);
         System.out.println("Current size: " + daisyChain.size() + "\n");
 
         daisyChain.replace(2, 100);
@@ -21,6 +21,14 @@ public class TestMiaDaisyChainConnectorDLL {
 
         daisyChain.addAtIndex(3, 1000);
         System.out.println("Daisy chain after adding 1000 in position 3: \n" + daisyChain);
+        System.out.println("Current size: " + daisyChain.size() + "\n");
+
+        daisyChain.addAtIndex(0, 25);
+        System.out.println("Daisy chain after adding 25 in position 0: \n" + daisyChain);
+        System.out.println("Current size: " + daisyChain.size() + "\n");
+
+        daisyChain.addAtIndex(9, 72);
+        System.out.println("Daisy chain after adding 72 in position 9: \n" + daisyChain);
         System.out.println("Current size: " + daisyChain.size() + "\n");
 
         System.out.println("Daisy chain contains 3: \n" + daisyChain.contains(3));
@@ -37,6 +45,9 @@ public class TestMiaDaisyChainConnectorDLL {
         daisyChain.removeAtIndex(1);
         System.out.println("Daisy chain after removing the item in position 1: \n" + daisyChain);
         System.out.println("Current size: " + daisyChain.size() + "\n");
+
+        System.out.println("Head: " + daisyChain.getHead().getData());
+        System.out.println("Tail: " + daisyChain.getTail().getData() + "\n");
 
         daisyChain.clear();
         System.out.println("Cleared daisy chain: \n" + daisyChain);

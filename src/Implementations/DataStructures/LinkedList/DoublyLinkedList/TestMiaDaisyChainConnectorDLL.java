@@ -1,8 +1,8 @@
-package DataStructureImplementations.LinkedList.SingularlyLinkedList;
+package Implementations.DataStructures.LinkedList.DoublyLinkedList;
 
-public class TestMiaDaisyChainConnectorSLL {
+public class TestMiaDaisyChainConnectorDLL {
     public static void main(String[] args) {
-        MiaDaisyChainConnectorSLL daisyChain = new MiaDaisyChainConnectorSLL();
+        MiaDaisyChainConnectorDLL daisyChain = new MiaDaisyChainConnectorDLL();
 
         for(int i = 1; i <= 6; i++) {
             daisyChain.addFront(i);

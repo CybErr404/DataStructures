@@ -1,4 +1,4 @@
-package DataStructureImplementations.LinkedList.CircularlyLinkedList;
+package Implementations.DataStructures.LinkedList.CircularlyLinkedList;
 
 public class MiaDaisyChainConnectorCLL {
     private BoxCLL head;

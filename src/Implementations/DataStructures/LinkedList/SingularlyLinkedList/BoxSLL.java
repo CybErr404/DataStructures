@@ -1,4 +1,4 @@
-package DataStructureImplementations.LinkedList.SingularlyLinkedList;
+package Implementations.DataStructures.LinkedList.SingularlyLinkedList;
 
 public class BoxSLL {
     private BoxSLL next;

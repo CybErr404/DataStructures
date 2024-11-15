@@ -1,4 +1,4 @@
-package DataStructureImplementations.LinkedList.SingularlyLinkedList;
+package Implementations.DataStructures.LinkedList.SingularlyLinkedList;
 
 //REPRESENTS THE INTRODUCTORY SINGULARLY LINKED LIST DATA STRUCTURE.
 public class MiaDaisyChainConnectorSLL {
