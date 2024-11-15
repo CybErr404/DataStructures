@@ -1,4 +1,4 @@
-package DataStructureImplementations.ArrayList;
+package Implementations.DataStructures.ArrayList;
 
 public class MiaContainer {
     //Write a method that adds a value to your container.
