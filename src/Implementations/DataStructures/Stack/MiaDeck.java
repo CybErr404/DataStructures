@@ -1,4 +1,4 @@
-package DataStructureImplementations.Stack;
+package Implementations.DataStructures.Stack;
 
 //REPRESENTS A STACK DATA STRUCTURE.
 public class MiaDeck {

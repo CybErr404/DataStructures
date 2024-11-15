@@ -1,4 +1,4 @@
-package DataStructureImplementations.Stack;
+package Implementations.DataStructures.Stack;
 
 public class TestMiaDeck {
     public static void main(String[] args) {
