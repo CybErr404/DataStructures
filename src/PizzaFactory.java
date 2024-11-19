@@ -2,7 +2,7 @@ public class PizzaFactory {
     //Super class pizza - sub out to chicago style, new york style, and sicilian style
     //Write a class Factory. It will contain a switch statement that returns a construction
     //of one of those types of pizza.
-    //Another class - constructs a pizza factory and asks the pizza to construct pizzas for them.
+    //Another class - constructs a pizza factory and asks the factory to construct pizzas for them.
         //Pizza hut has a pizza factory. "hey pizza factory, generate a sicilian pizza!"
             //calls ONLY the pizza factory object and pz.generate(sicilian) which will give that pizza.
 

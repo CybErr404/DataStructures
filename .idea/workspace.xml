@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Completed massive file overhaul">
-      <change afterPath="$PROJECT_DIR$/src/Chicago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NewYork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PizzaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PizzaHut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sicilian.java" afterDir="false" />
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Started factory design pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" afterDir="false" />
     </list>
@@ -127,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00083" summary="Added AdvancedSlotMachine classes">
-      <created>1729112660435</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1729112660435</updated>
     </task>
     <task id="LOCAL-00084" summary="Updated tester">
       <created>1729112686391</created>
@@ -471,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731636584550</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Started factory design pattern">
+      <created>1731638964339</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1731638964339</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated file structure" />
     <MESSAGE value="Fixed AdvancedSlotMachine class" />
     <MESSAGE value="Started Queue implementation" />
     <MESSAGE value="Started main game class" />
@@ -511,7 +504,8 @@
     <MESSAGE value="Restructured homework program files" />
     <MESSAGE value="Started Bubble Sort" />
     <MESSAGE value="Completed massive file overhaul" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed massive file overhaul" />
+    <MESSAGE value="Started factory design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started factory design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
