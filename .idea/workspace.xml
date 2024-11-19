@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Started factory design pattern">
+    <list default="true" id="7e161db1-0b10-457f-ab2b-edd5af4bbc35" name="Changes" comment="Updated comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chicago.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewYork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PizzaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PizzaHut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeCode/PolymorphismPractice/ObserverDesignPattern/Businesses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeCode/PolymorphismPractice/ObserverDesignPattern/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeCode/PolymorphismPractice/ObserverDesignPattern/Seniors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeCode/PolymorphismPractice/ObserverDesignPattern/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeCode/PolymorphismPractice/ObserverDesignPattern/TestSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeCode/PolymorphismPractice/ObserverDesignPattern/Youths.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Project1/UltimaHalloweenEdition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sicilian.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +53,23 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PizzaHut">
+  <component name="RunManager" selected="Application.TestChocolateFactory">
     <configuration name="PizzaHut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PizzaHut" />
+      <module name="DataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaHutTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PizzaHutTester" />
+      <module name="DataStructures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestChocolateFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestChocolateFactory" />
       <module name="DataStructures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,19 +81,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OptionalHomework.OptionalHomework2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorts.SelectionSort.TestSelectionSort" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorts.SelectionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,28 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.JUnitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework.JUnitTest" />
-      <option name="MAIN_CLASS_NAME" value="Homework.JUnitTest.TimeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestChocolateFactory" />
+        <item itemvalue="Application.PizzaHutTester" />
         <item itemvalue="Application.PizzaHut" />
         <item itemvalue="Application.TestMovingX" />
         <item itemvalue="Application.TestSubject" />
-        <item itemvalue="Application.TestSelectionSort" />
-        <item itemvalue="JUnit.TimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725913745432</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Updated tester">
-      <created>1729112686391</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1729112686391</updated>
     </task>
     <task id="LOCAL-00085" summary="Finished tester">
       <created>1729112848997</created>
@@ -465,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731638964339</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Updated comments">
+      <created>1731976143271</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1731976143272</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed AdvancedSlotMachine class" />
     <MESSAGE value="Started Queue implementation" />
     <MESSAGE value="Started main game class" />
     <MESSAGE value="Restructured files" />
@@ -505,7 +502,8 @@
     <MESSAGE value="Started Bubble Sort" />
     <MESSAGE value="Completed massive file overhaul" />
     <MESSAGE value="Started factory design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started factory design pattern" />
+    <MESSAGE value="Updated comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
