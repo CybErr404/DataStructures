@@ -1,7 +1,7 @@
 package Projects.Project1;
 
-import DataStructureImplementations.LinkedList.CircularlyLinkedList.BoxCLL;
-import DataStructureImplementations.LinkedList.CircularlyLinkedList.MiaDaisyChainConnectorCLL;
+import Implementations.DataStructures.LinkedList.CircularlyLinkedList.MiaDaisyChainConnectorCLL;
+
 public class UltimaHalloweenEdition {
     private MiaDaisyChainConnectorCLL rooms;
 
